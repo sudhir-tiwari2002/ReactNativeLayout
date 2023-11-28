@@ -11,9 +11,9 @@ export default function App() {
       <Box style={{ backgroundColor: "lightgreen" ,flex:2}}>Box 2</Box>
       <Box style={{ backgroundColor: "lightpink" ,flex:3}}>Box 3</Box>
       <Box style={{ backgroundColor: "hotpink" , flex:4}}>Box 4</Box>
-      <Box style={{ backgroundColor: "gray" ,flex:5}}>Box 5</Box>
-      <Box style={{ backgroundColor: "purple" ,flex:6}}>Box 6</Box>
-      <Box style={{ backgroundColor: "skyblue" ,flex:7}}>Box 7</Box>
+      <Box style={{ backgroundColor: "gray" ,flex:3}}>Box 5</Box>
+      <Box style={{ backgroundColor: "purple" ,flex:2}}>Box 6</Box>
+      <Box style={{ backgroundColor: "skyblue" ,flex:1}}>Box 7</Box>
     </View>
   );
 }

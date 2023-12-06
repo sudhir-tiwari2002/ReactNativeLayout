@@ -14,8 +14,7 @@ const styles =StyleSheet.create({
         // backgroundColor:"#fff",
         padding:20,
        justifyContent:"center",
-        width:50,
-        height:50
+        
     },
     text:{
         fontSize:24,

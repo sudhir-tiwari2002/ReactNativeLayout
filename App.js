@@ -7,7 +7,7 @@ export default function App() {
 
     // </View>
     <View style={styles.container}>
-      <Box style={{ backgroundColor: "lightblue" , }}>Box 1</Box>
+      <Box style={{ backgroundColor: "lightblue"  }}>Box 1</Box>
       <Box style={{ backgroundColor: "lightgreen" , }}>Box 2</Box>
       <Box style={{ backgroundColor: "lightpink" , }}>Box 3</Box>
       <Box style={{ backgroundColor: "hotpink" , }}>Box 4</Box>
@@ -24,12 +24,9 @@ const styles = StyleSheet.create({
     
     height:300,
     flexWrap:"wrap",
-    // alignContent:"flex-start",  // by default 
-    // alignContent:"flex-end",
-    // alignContent:"center",
-    // alignContent:"stretch",
-    // alignContent:"space-between",
-    alignContent:"space-around",
+    // rowGap:20,   gap between each row
+    // columnGap:20,  gap between each column 
+    // gap:30,   gap between each row and column
     marginTop: 60,
     borderWidth: 6,
     borderColor: "red",

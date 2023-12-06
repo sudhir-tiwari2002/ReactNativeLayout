@@ -14,6 +14,7 @@ const styles =StyleSheet.create({
         // backgroundColor:"#fff",
         padding:20,
        justifyContent:"center",
+      //  flexGrow:1
         
     },
     text:{

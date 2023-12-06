@@ -20,18 +20,16 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    // flex:1,
-    // flexWrap:"nowrap", // this is the default value 
-    // flexWrap:"wrap",
-    flexWrap:"wrap-reverse",
+    
+    
     height:300,
-    // flexDirection:"row",
-    // justifyContent:"space-between",
-    // alignItems:"baseline",
-    // alignItems:"center",
-    // alignItems:"flex-end",
-    // alignItems:"flex-start",
-    // alignItems:"flex-end", // align self is depend on the align item position 
+    flexWrap:"wrap",
+    // alignContent:"flex-start",  // by default 
+    // alignContent:"flex-end",
+    // alignContent:"center",
+    // alignContent:"stretch",
+    // alignContent:"space-between",
+    alignContent:"space-around",
     marginTop: 60,
     borderWidth: 6,
     borderColor: "red",

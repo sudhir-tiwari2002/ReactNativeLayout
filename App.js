@@ -7,13 +7,13 @@ export default function App() {
 
     // </View>
     <View style={styles.container}>
-      <Box style={{ backgroundColor: "lightblue"  ,flexShrink:1,}}>Box 1 Shrink</Box>
-      <Box style={{ backgroundColor: "lightgreen" ,flexShrink:1, }}>Box 2 Shrink</Box>
-      {/* <Box style={{ backgroundColor: "lightpink" , flexBasis:140 }}>Box 3</Box>
-      <Box style={{ backgroundColor: "hotpink" , height:140}}>Box 4</Box>
-      <Box style={{ backgroundColor: "gray" , }}>Box 5</Box>
-      <Box style={{ backgroundColor: "purple" }}>Box 6</Box>
-      <Box style={{ backgroundColor: "skyblue", }}>Box 7</Box> */}
+      <Box style={{ backgroundColor: "lightblue"  }}>Box 1 Shrink</Box>
+      <Box style={{ backgroundColor: "lightgreen"  }}>Box 2 Shrink</Box>
+      <Box style={{ backgroundColor: "lightpink" ,  }}>Box 3</Box>
+      <Box style={{ backgroundColor: "hotpink" ,flexGrow:1 }}>Box 4</Box>
+      <Box style={{ backgroundColor: "gray" , flexGrow:1}}>Box 5</Box>
+      <Box style={{ backgroundColor: "purple",flexGrow:3 }}>Box 6</Box>
+      <Box style={{ backgroundColor: "skyblue", }}>Box 7</Box>
     </View>
   );
 }
@@ -21,10 +21,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    flexDirection:"row",
-    alignItems:"flex-start",
     
-    width:200,
+    
+    
     
     marginTop: 60,
     borderWidth: 6,
